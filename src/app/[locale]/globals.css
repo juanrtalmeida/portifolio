@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply h-full;
+}
+
+body {
+  @apply bg-gradient-to-tr from-secondary to-primary h-full text-white;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
